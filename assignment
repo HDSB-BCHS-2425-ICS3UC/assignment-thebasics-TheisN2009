@@ -1,0 +1,62 @@
+#Author Theis Noordhof
+#Date Modified 2/24/2025
+#Description Different types of variables 
+
+#integer
+print("Integers are whole numbers that are positive or negative")
+x=5
+print("For example:")
+print(x)
+
+
+#Floats
+print("Floats are numbers with decimal points")
+x=133.5
+print("For example:")
+print(x)
+
+#Double
+print("Double is more acurate numbers with decimal points")
+x=3.14
+print("For example:")
+print(x)
+
+#Char
+print("Char is single characters")
+x
+print("For example:")
+print(x)
+
+#Booleans
+print("Booleans are True or False")
+logged_in = True
+print("For example:")
+print(logged_in)
+
+#Strings
+print("Strings are combination of characters")
+print("For example")
+print("Hello World")
+
+#Calculating with different math operations
+import math 
+
+#Addition
+sum_add=5+2
+print(sum_add)
+
+#Subtraction
+difference = 10-5
+print(difference)
+
+#Product
+prod=2*2*5
+print(prod)
+
+#Quotient Integer 
+quot = 25/5
+print(quot)
+
+#Quotient Float
+quot_float = 24.0/7
+print(quot_float)
