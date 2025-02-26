@@ -42,23 +42,32 @@ print("Hello World")
 import math 
 
 #Addition
+print("Addition is the sum of two numbers")
 sum_add=5+2
+print("For example 5+2 is equal to")
 print(sum_add)
 
 #Subtraction
+print("Subtraction is the difference between two numbers")
 difference = 10-5
+print("For example 10-5 is equal to")
 print(difference)
 
 #Product
+print("Product is the multiplication of numbers")
 prod=2*2*5
+print("For example the product of 2*2*5 is equal to")
 print(prod)
 
 #Quotient Integer 
+print("Quotient integer is the division two numbers")
 quot = 25/5
+print("For example 25/5 is equal to")
 print(quot)
 
 #Quotient Float
-quot_float = 24.0/7
+print("Quotient Float is the")
+quot_float = 25.0/7
 print(quot_float)
 
 #Square Root
@@ -82,3 +91,5 @@ c=int(input("Please type in the c value and press enter "))
 #The formula for the discriminant 
 d=b**2-4*a*c
 print("The discriminant is",d)
+
+#
