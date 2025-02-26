@@ -60,3 +60,25 @@ print(quot)
 #Quotient Float
 quot_float = 24.0/7
 print(quot_float)
+
+#Square Root
+square = math.sqrt(144)
+print(square)
+
+#Exponents 
+nth_power = 3**4
+print(nth_power)
+
+#Modulus 
+rem_1 = 30%7
+print(rem_1)
+
+
+#Finding the discriminant(the part of the quadratic formula that tells you the number of roots a quadratic function has)
+print("The formula for finding the discriminant is b squared - 4ac.")
+a=int(input("Please type in the a value and press enter "))
+b=int(input("Please type in the b value and press enter "))
+c=int(input("Please type in the c value and press enter "))
+#The formula for the discriminant 
+d=b**2-4*a*c
+print("The discriminant is",d)
