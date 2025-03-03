@@ -66,12 +66,13 @@ print("For example 25/5 is equal to")
 print(quot)
 
 #Quotient Float
-print("Quotient Float is the")
-quot_float = 25.0/7
+quot_float = 24.0/7
 print(quot_float)
 
 #Square Root
+print("Square root of a number")
 square = math.sqrt(144)
+print("For example the square root of 144 is equal to")
 print(square)
 
 #Exponents 
@@ -89,7 +90,33 @@ a=int(input("Please type in the a value and press enter "))
 b=int(input("Please type in the b value and press enter "))
 c=int(input("Please type in the c value and press enter "))
 #The formula for the discriminant 
-d=b**2-4*a*c
+d=b^2-4^a^c
 print("The discriminant is",d)
 
-#
+#Calculating the volume of 3 dimensional shapes
+
+#Volume of a cube
+print("The formula to find the volume of a cube is *Side length* cubed")
+side_length = float(input("Enter the side length of the cube: "))
+volume = side_length ** 3
+print(f"The volume of the cube is: {volume} cubic units.")
+
+#Volume of a sphere
+shape = "sphere"
+radius = float(input("Enter the radius of the sphere: "))
+volume = (4/3) * math.pi * radius**3
+print(f"The volume of the sphere is: {volume} cubic units.")
+
+#Volume of a cone
+shape = "cone"
+radius = float(input("Input the radius of the cone's base: "))
+height = float(input("Enter the height of the cone: "))
+volume = (1/3) * math.pi * radius**2 * height
+print(f"The volume of the cone is: {volume} cubic units. ")
+
+#Volume of a cylinder 
+shape = "cylinder"
+radius = float(input("Enter the radius of the cylinders base: "))
+height = float(input("Enter the height of the cylinder: "))
+volume = math.pi * radius**2 * height
+print(f"The volume of the cylinder is: {volume} cubic units. ")
